@@ -85,3 +85,39 @@ span{
     background-size: cover;
     padding: 5%;
 }
+
+
+@media only screen and (max-width: 375px){
+
+    h1{
+        padding-top: 1%;
+    }
+    .main-container{
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+
+    .dark-purple-back{
+        height: 40vh;
+        width: 80vw;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        padding: 10% 5%;
+    }
+
+
+    .reviews div{
+        padding: 5px 10px;
+    }
+
+
+    .image-div{
+        height: 40vh;
+        width: 80vw;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0;
+        margin-top: 5%;
+    }
+    
+}
